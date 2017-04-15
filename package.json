@@ -1,0 +1,13 @@
+{
+  "name": "WebPackDemo",
+  "version": "0.0.1",
+  "dependencies": {
+    "xmlbuilder": "^8.2.2"
+  },
+  "devDependencies": {
+    "webpack": "^2.4.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
