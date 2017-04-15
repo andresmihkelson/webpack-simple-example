@@ -10,3 +10,5 @@ console.log(xml);
 
 var exmpl = require('./exampleModule');
 exmpl.testFn();
+
+document.addEventListener('keyup', exmpl.keyUp);
