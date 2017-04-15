@@ -7,3 +7,6 @@ var xml = builder.create('root')
     .end({ pretty: true});
 
 console.log(xml);
+
+var exmpl = require('./exampleModule');
+exmpl.testFn();
